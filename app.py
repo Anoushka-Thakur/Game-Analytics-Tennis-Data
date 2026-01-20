@@ -24,6 +24,54 @@ st.title("🎾 Tennis Game Analytics Dashboard")
 
 conn = get_connection()
 
+st.markdown(
+    """
+    <style>
+    /* Background image */
+    .stApp {
+        background-image: url("https://in.pinterest.com/pin/19914423347483652/.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    /* Headings and subheaders */
+    h1, h2, h3, h4, h5, h6, .css-1v3fvcr, .css-1d391kg, .css-18ni7ap {
+        color: black !important;
+        font-weight: bold;
+    }
+
+    /* SQL code blocks */
+    .stCodeBlock, pre {
+        color: black !important;
+        background-color: rgba(255,255,255,0.85) !important;
+        border-radius: 5px;
+    }
+
+    /* KPI cards */
+    .stMetric {
+        background-color: black !important;
+        color: yellow !important;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /* Tables: slightly transparent */
+    .stDataFrame div.row_widget.stDataFrame div {
+        background-color: rgba(255,255,255,0.85);
+        border-radius: 5px;
+    }
+
+    /* Buttons */
+    button.stButton {
+        background-color: rgba(255, 255, 0, 0.85);
+        color: black;
+        font-weight: bold;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # ==================================================
 # 1️⃣ HOMEPAGE DASHBOARD – SUMMARY STATISTICS
 # ==================================================
