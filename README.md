@@ -66,43 +66,43 @@ Built an interactive Streamlit dashboard connected to SQLite.
 
 Features Implemented
 
-#### Homepage KPIs:
+### Homepage KPIs:
 
-Total competitors
+1. Total competitors
 
-Countries represented
+2. Countries represented
 
-Best / top rankings
+3. Best / top rankings
 
 ### Interactive tables:
 
-Leaderboards
+1. Leaderboards
 
-Country‑wise analysis
+2. Country‑wise analysis
 
 ### Filters & search:
 
-Search competitors by name
+1. Search competitors by name
 
-Rank‑based filtering
+2. Rank‑based filtering
 
 
 ### Project Members
 
 #### Kumari Akanksha
 
-Data extraction
+1. Data extraction
 
-Data sourcing and preprocessing
+2. Data sourcing and preprocessing
 
 #### Anoushka Thakur
 
-SQL queries and analytics
+1. SQL queries and analytics
 
-Streamlit application development
+2. Streamlit application development
 
 #### Sanjeev Raj T
 
-Project documentation
+1. Project documentation
 
-README and report preparation
+2. README and report preparation
