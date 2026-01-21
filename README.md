@@ -1,15 +1,16 @@
-🎾 Tennis Insights: A Data-Driven Dashboard
+#  Tennis Analytics System: A Data-Driven Dashboard
 
-Overview
+### Overview
+
 Tennis Insights is a sports data analytics project that extracts, structures, and analyzes professional tennis data sourced from the SportRadar Tennis API. The project transforms raw JSON responses into structured CSV datasets suitable for SQL analysis and interactive visualization using Streamlit.
 
-Key Objectives
+### Key Objectives
 
 Convert complex tennis API data into analysis-ready tabular format
 Design a relational data structure for competitions, venues, and rankings
 Enable analytical insights through SQL and dashboard visualization
 
-Data & Files
+### Data & Files
 
 JSON files: Raw API-style responses
 competitions.json, complexes.json, double_competitor_rankings.json
@@ -17,7 +18,8 @@ competitions.json, complexes.json, double_competitor_rankings.json
 CSV files: Processed, SQL-ready datasets
 categories.csv, competitions.csv, complexes.csv, venues.csv, double_competitor_rankings.csv
 
-Data Extraction
+### Data Extraction
+
 Python scripts are used to parse and flatten nested JSON data:
 extract_competitions.py
 extract_complex.py
@@ -25,20 +27,23 @@ extract_double_competitor_rankings.py
 
 Each script converts raw data into structured CSV files.
 
-Analytics & Dashboard
+### Analytics & Dashboard
+
 SQL queries support competition analysis, venue distribution, and ranking insights
 A Streamlit dashboard (developed separately) provides interactive filters, metrics, and leaderboards
 
-Technologies Used
-Python
-SQL (MySQL / PostgreSQL)
-Streamlit
-SportRadar Tennis API
+### Tech Stack
+Layer      	        Technology
+Database   	        SQLite3
+Backend   	        Python
+Data Formats	      CSV, JSON
+Version Control   	Git & GitHub
+IDE                 VS Code
 
-Note
+### Note
 API access may vary based on key permissions. Data processing follows SportRadar’s documented response structure.# Game-Analytics-Unlocking-Tennis-Data-with-SportRadar-API
 
-⚙️ How to Run the Project
+ ### How to Run the Project
 
 1. Clone the Repository
 git clone https://github.com/Anoushka-Thakur/Game-Analytics-Unlocking-Tennis-Data-with-SportRadar-API.git
@@ -54,3 +59,50 @@ Import the generated CSV files into MySQL or PostgreSQL for analysis.
 
 4. Launch Streamlit App
 streamlit run app.py
+
+### Streamlit Application
+
+Built an interactive Streamlit dashboard connected to SQLite.
+
+Features Implemented
+
+#### Homepage KPIs:
+
+Total competitors
+
+Countries represented
+
+Best / top rankings
+
+### Interactive tables:
+
+Leaderboards
+
+Country‑wise analysis
+
+### Filters & search:
+
+Search competitors by name
+
+Rank‑based filtering
+
+
+### Project Members
+
+#### Kumari Akanksha
+
+Data extraction
+
+Data sourcing and preprocessing
+
+#### Anoushka Thakur
+
+SQL queries and analytics
+
+Streamlit application development
+
+#### Sanjeev Raj T
+
+Project documentation
+
+README and report preparation
