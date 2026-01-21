@@ -43,22 +43,6 @@ IDE                 VS Code
 ### Note
 API access may vary based on key permissions. Data processing follows SportRadar’s documented response structure.# Game-Analytics-Unlocking-Tennis-Data-with-SportRadar-API
 
- ### How to Run the Project
-
-1. Clone the Repository
-git clone https://github.com/Anoushka-Thakur/Game-Analytics-Unlocking-Tennis-Data-with-SportRadar-API.git
-cd Game-Analytics-Unlocking-Tennis-Data-with-SportRadar-API
-
-2. Run Data Extraction Scripts
-python extract_competitions.py
-python extract_complex.py
-python extract_double_competitor_rankings.py
-
-3. Load CSVs into SQL Database
-Import the generated CSV files into MySQL or PostgreSQL for analysis.
-
-4. Launch Streamlit App
-streamlit run app.py
 
 ### Streamlit Application
 
@@ -105,3 +89,21 @@ Features Implemented
 1. Project documentation
 
 2. README and report preparation
+
+
+### How to Run the Project
+
+1. Clone the Repository
+git clone https://github.com/Anoushka-Thakur/Game-Analytics-Unlocking-Tennis-Data-with-SportRadar-API.git
+cd Game-Analytics-Unlocking-Tennis-Data-with-SportRadar-API
+
+2. Run Data Extraction Scripts
+python extract_competitions.py
+python extract_complex.py
+python extract_double_competitor_rankings.py
+
+3. Load CSVs into SQL Database
+Import the generated CSV files into MySQL or PostgreSQL for analysis.
+
+4. Launch Streamlit App
+streamlit run app.py
